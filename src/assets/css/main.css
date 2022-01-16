@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #e5e5e5;
+}
+.app {
+  width: 50%;
+  max-width: 550px;
+  margin: 100px auto;
+  background-color: #fff;
+}
+/* header style start */
+.header {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f55a5a;
+  color: #ffffff;
+  font-size: 20px;
+}
+.header h1 {
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  font-size: 14.4608px;
+}
+/* header style end */
+/* card style start */
+.container {
+  padding: 30px;
+}
+.article {
+  display: flex;
+  margin: 20px 0;
+}
+.article--img {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 25%;
+}
+.article--img img {
+  width: 100%;
+}
+.article--infos {
+  width: 80%;
+  margin: 20px;
+}
+.article--infos__location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.article--infos__location--mark {
+  color: #f55a5a;
+}
+.article--infos__location__country {
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+.article--infos__location__map-link {
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+
+  color: #918e9b;
+}
+.article--infos__position {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2b283a;
+}
+.article--infos__time {
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+.article--infos__description {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
+/* card style end */
+/* footer style start */
+.footer {
+  text-align: center;
+  margin: 5px;
+}
+.footer a {
+  color: #f55a5a;
+}
+/* footer style end */
